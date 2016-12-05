@@ -1,7 +1,7 @@
 # parse_nginx_log
 Nginx日志解析
 参数说明：
-    -code int
+   {{{ -code int
           http错误码 (default 500)
       -h	使用帮助
       -maxnum int
@@ -16,7 +16,7 @@ Nginx日志解析
           时间所在的位置
       -urlpos int
           URL所在的位置 (default 6)
-          
+     }}}     
 使用方法
   nginx 日志如下：
   0.032 119.6.226.151, 61.55.167.208 - - [30/Nov/2016:00:00:00 +0800] "GET / HTTP/1.0" 301 0 "-" "Mozilla/5.0 (Linux;u;Android 4.2.2;zh-cn;) AppleWebKit/534.46 (KHTML,like Gecko) Version/5.1 Mobile Safari/10600.6.3 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
